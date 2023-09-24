@@ -83,6 +83,8 @@ src/
 
 * Команды компиляции:
 
+Выполняем в директории build  
+
 ```
 cmake .. -DCMAKE_BUILD_TYPE=Debug\Release -G "MinGW Makefiles"
 cmake --build .
