@@ -54,7 +54,7 @@ sheet->PrintValues();
 
 # Компиляция:
 Понадобится ANTLR не ниже Version 4.13.0, инструкция по установке https://github.com/antlr/antlr4/blob/master/doc/getting-started.md  
-На сайте ANTLR нужно скачать архив antlr4-cpp-runtime*.zip из раздела Download.  
+На сайте ANTLR нужно скачать архив antlr4-cpp-runtime*.zip из раздела Download https://www.antlr.org/download.html  
 
 * Команда генерации файлов анализатора для C++:  
 
