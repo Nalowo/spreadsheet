@@ -422,7 +422,7 @@ void FormulaAST::PrintFormula(std::ostream& out) const {
 }
 
 double FormulaAST::Execute(Functor args) const {
-    return root_expr_->Evaluate(/*добавьте нужные аргументы*/ args);
+    return root_expr_->Evaluate(args);
 }
 
 FormulaAST::FormulaAST(std::unique_ptr<ASTImpl::Expr> root_expr, std::forward_list<Position> cells)
